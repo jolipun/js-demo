@@ -112,3 +112,9 @@ let fruits = ["apple", "orange", "cherry"];
 fruits.forEach(function(fruit) {
     console.log(fruit);
 });
+
+//Arrays in the DOM
+
+const containers = document.getElementsByClassName('container');
+console.log(containers);
+containers[0].classList.add('d-none');
